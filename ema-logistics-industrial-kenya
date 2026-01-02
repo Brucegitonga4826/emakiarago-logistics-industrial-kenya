@@ -1,0 +1,65 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EMA KIARAGO TRANSPORT & LOGISTICS LIMITED</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f5f5f5; }
+    header { background:#0b3c6d; color:white; padding:20px; text-align:center; }
+    section { padding:40px 20px; max-width:1000px; margin:auto; background:white; margin-top:20px; }
+    h2 { color:#0b3c6d; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+    .box { background:#eef3f7; padding:20px; border-radius:8px; }
+    footer { background:#111; color:white; text-align:center; padding:15px; margin-top:20px; }
+    .btn { background:#f97316; color:white; padding:12px 20px; text-decoration:none; border-radius:6px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>EMA KIARAGO TRANSPORT & LOGISTICS LIMITED</h1>
+  <p>Your Trusted Clearing & Forwarding Partner</p>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    EMA Kiarago Transport & Logistics Limited is a licensed clearing and forwarding company
+    based in Nairobi, Kenya. We specialize in KRA ICMS entries, IDF processing, EX1 transit entries,
+    import & export documentation, and cross-border logistics across Africa.
+  </p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="box">🚛 Road Transport</div>
+    <div class="box">✈ Air Freight</div>
+    <div class="box">🚢 Sea Freight</div>
+    <div class="box">📄 Clearing & Forwarding</div>
+  </div>
+</section>
+
+<section>
+  <h2>Director</h2>
+  <p><strong>Job Gitonga Kiarago</strong><br>
+     Director<br>
+     Call/WhatsApp: 0742 873 236<br>
+     Email: jobgitonga390@gmail.com
+  </p>
+  <a class="btn" href="https://wa.me/254742873236">WhatsApp Us</a>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Nairobi, Kenya – Along Lunga Lunga Road</p>
+</section>
+
+<footer>
+  © 2026 EMA KIARAGO Transport & Logistics Limited
+</footer>
+
+</body>
+</html>
