@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>EMA Kiarago Transport & Logistics</title>
+  <title>EMA Kiarago Transport & Logistics Limited</title>
 
   <style>
     body {
@@ -10,34 +10,73 @@
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      background-color: #ffffff;
     }
+
     header {
       background: #0b3c5d;
       color: white;
-      padding: 20px;
+      padding: 25px;
       text-align: center;
     }
+
+    header img {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+
     section {
       padding: 20px;
     }
-    .gallery img, .director img {
-      width: 300px;
-      margin: 10px;
-      border-radius: 6px;
+
+    h2 {
+      color: #0b3c5d;
     }
-    .contact-info {
-      padding: 10px 0;
-    }
+
     .services {
       background-color: #f4f4f4;
       padding: 20px;
       margin-top: 20px;
+      border-radius: 6px;
     }
+
     .documents {
       background-color: #f9f9f9;
       padding: 20px;
       margin-top: 20px;
+      border-radius: 6px;
     }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .director {
+      text-align: center;
+    }
+
+    .director img {
+      width: 280px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .contact-info {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 6px;
+    }
+
     .whatsapp-btn {
       position: fixed;
       bottom: 20px;
@@ -51,6 +90,7 @@
       cursor: pointer;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
+
     .whatsapp-btn:hover {
       background-color: #128C7E;
     }
@@ -60,6 +100,7 @@
 <body>
 
 <header>
+  <img src="images/logo.jpeg" alt="EMA Kiarago Logo">
   <h1>EMA Kiarago Transport & Logistics Limited</h1>
   <p>Reliable Transport, Clearing & Logistics Solutions</p>
 </header>
@@ -67,82 +108,62 @@
 <section>
   <h2>About Us</h2>
   <p>
-    EMA Kiarago Transport & Logistics Limited is a trusted provider of transport, clearing, and logistics services across Kenya and beyond. With over 10 years of experience, we specialize in both import and export services across East Africa and beyond, offering seamless logistics solutions to help your business thrive.
+    EMA Kiarago Transport & Logistics Limited is a trusted provider of transport, clearing, and logistics services across Kenya and beyond.
+    With over 10 years of experience, we specialize in import and export services across East Africa and the African continent.
   </p>
 </section>
 
 <section>
   <h2>Our Logistics Services</h2>
   <div class="services">
-    <h3>Our Services Include:</h3>
     <ul>
-      <li>Freight Forwarding (Import and Export)</li>
+      <li>Freight Forwarding (Import & Export)</li>
       <li>Transport & Haulage</li>
       <li>Clearing & Customs Brokerage</li>
       <li>Warehousing & Distribution</li>
       <li>Cargo Handling & Packaging</li>
       <li>Logistics Consultancy</li>
     </ul>
-    <p>
-      We are connected to all major borders in the region, including Malaba, Busia, and Namanga. We handle clearing across the African continent, ensuring your goods move seamlessly from one place to another.
-    </p>
   </div>
 </section>
 
 <section>
   <h2>Detailed Services</h2>
+
   <div class="services">
     <h3>Transportation</h3>
-    <p>
-      At EMA Kiarago Transport & Logistics, we provide top-tier transportation services to move goods efficiently within Kenya and across the East African region. Our fleet is equipped to handle both small and large shipments, ensuring timely and safe delivery.
-    </p>
-    <p>
-      We specialize in:
-      <ul>
-        <li>Long haul transportation</li>
-        <li>Short-distance haulage</li>
-        <li>Road Freight Solutions</li>
-        <li>Overland Transport for Regional Shipments</li>
-      </ul>
-    </p>
+    <ul>
+      <li>Long Haul Transportation</li>
+      <li>Short Distance Haulage</li>
+      <li>Road Freight Solutions</li>
+      <li>Regional Overland Transport</li>
+    </ul>
   </div>
 
   <div class="services">
     <h3>Clearing & Forwarding</h3>
-    <p>
-      Our clearing and forwarding service ensures that goods are cleared from customs, delivered to the destination, and all the paperwork is properly handled. We manage the entire import/export process from start to finish, making sure there are no delays at the port or with customs.
-    </p>
-    <p>
-      Key services include:
-      <ul>
-        <li>Customs Clearing at Ports</li>
-        <li>Completion of Import/Export Documentation</li>
-        <li>Delivery to Warehouse or Final Destination</li>
-        <li>Consultation on International Trade Regulations</li>
-      </ul>
-    </p>
+    <ul>
+      <li>Customs Clearing at Ports & Borders</li>
+      <li>Import & Export Documentation</li>
+      <li>Delivery to Final Destination</li>
+      <li>Trade Compliance Advisory</li>
+    </ul>
   </div>
 
   <div class="services">
     <h3>Logistics Consultancy</h3>
-    <p>
-      Our experienced consultants provide expert advice on optimizing your supply chain, reducing operational costs, and improving efficiency. We assist with logistics planning, risk management, and even offer training to businesses looking to improve their logistics operations.
-    </p>
-    <p>
-      Key consultancy services include:
-      <ul>
-        <li>Supply Chain Optimization</li>
-        <li>Risk Assessment & Mitigation</li>
-        <li>Process Improvements</li>
-        <li>Training and Capacity Building</li>
-      </ul>
-    </p>
+    <ul>
+      <li>Supply Chain Optimization</li>
+      <li>Risk Management</li>
+      <li>Process Improvement</li>
+      <li>Training & Capacity Building</li>
+    </ul>
   </div>
 
   <div class="services">
     <h3>Warehousing & Distribution</h3>
     <p>
-      We offer secure and reliable warehousing solutions to store goods before they are distributed to their final destinations. Our distribution services ensure timely delivery to various parts of East Africa, with full tracking to keep you informed about your shipment’s progress.
+      Secure warehousing solutions with efficient distribution across East Africa.
     </p>
   </div>
 </section>
@@ -152,37 +173,32 @@
   <ul>
     <li>Commercial Invoice</li>
     <li>Packing List</li>
-    <li>Bill of Lading (BOL) / Air Waybill (AWB)</li>
-    <li>Import/Export Declaration Forms</li>
+    <li>Bill of Lading / Air Waybill</li>
     <li>Certificate of Origin</li>
+    <li>Import / Export Declaration</li>
     <li>Customs Bond</li>
-    <li>Proforma Invoice</li>
     <li>Import Permit (where applicable)</li>
-    <li>Transport Documentation (for shipments by road, sea, or air)</li>
   </ul>
 </section>
 
 <section>
   <h2>ICMS Expertise</h2>
   <p>
-    Our team is highly skilled in the management and operation of Import/Export Cargo Management Systems (ICMS). We ensure smooth cargo clearance and logistics by leveraging advanced systems for efficiency and accuracy. Our expertise covers all necessary steps, from document preparation to customs clearing at all borders.
+    Our team is highly experienced in ICMS operations, ensuring smooth cargo clearance at all major borders including Malaba, Busia, and Namanga.
   </p>
 </section>
 
 <section>
   <h2>Our Location</h2>
   <p>
-    📍 Address: Along Lungalunga Road, Next to House of Maji, Next to Shell Petrol Station, Nairobi, Kenya
-  </p>
-  <p>
-    Feel free to visit us or contact us for more information about our logistics services.
+    📍 Along Lungalunga Road, Next to House of Maji, Next to Shell Petrol Station, Nairobi, Kenya
   </p>
 </section>
 
 <section>
   <h2>Director</h2>
   <div class="director">
-    <img src="director.jpeg" alt="Director Photo">
+    <img src="images/director.jpeg" alt="Director Photo">
     <p><strong>Job Gitonga Kiarago</strong><br>Director</p>
     <p>
       📞 0742 878 236<br>
@@ -194,17 +210,19 @@
 <section class="contact-info">
   <h2>Contact Us</h2>
   <p>
-    For inquiries, bookings, or consultations, please reach out to us via the contact details above. We look forward to serving your transport and logistics needs.
+    Reach out to us for reliable transport, clearing, and logistics solutions.
   </p>
 </section>
 
 <section>
   <h2>Our Logistics Gallery</h2>
   <div class="gallery">
-    <img src="director.jpeg" alt="Company Director">
-    <img src="factory2.jpeg" alt="Factory Operations">
-    <!-- Use the simplified image name for ICD Verification -->
-    <img src="icd-verification.jpeg" alt="ICD Verification">
+    <img src="images/factory.jpeg" alt="Warehouse Operations">
+    <img src="images/factory2.jpeg" alt="Logistics Facility">
+    <img src="images/kpa.jpeg" alt="KPA Operations">
+    <img src="images/ceo.jpeg" alt="Management">
+    <img src="images/ceo2.jpeg" alt="Leadership Team">
+    <img src="images/verification-icd.jpeg" alt="ICD Verification">
   </div>
 </section>
 
@@ -215,5 +233,3 @@
 
 </body>
 </html>
-
-
